@@ -42,4 +42,5 @@ if current_mac==options.new_mac:
 else:
     print("[-] Mac address did not get changed.")
 
+#bbozyokus
 #subprocess.call("ifconfig " + interface + "down",shell=True) Not secure.Basically, user can hijack this program and get it to execute other commands.
